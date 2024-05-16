@@ -1,0 +1,28 @@
+{
+    "acceso": {
+        "usuario": "SUPERVISOR@6156",
+        "clave": "spdiquemintran",
+        "rien": "1"
+    },
+    "variables": {
+        "sistemaEnturnamiento": {
+            "terminalPortuariaNit": "8060126542",
+            "sistemaEnturnamientoId": "1430"
+        },
+        "tipoOperacionId": 2,
+        "empresaTransportadoraNit": "9003643531",
+        "vehiculoNumPlaca": "TAY372",
+        "conductorCedulaCiudadania": "1121859629",
+        "fechaOfertaSolicitud": "2023-09-01T13:20",
+        "numManifiestoCarga": "82032531",
+        "turnoAsignado": {
+            "fecha": "2023-09-01T13:29",
+            "tiemposProceso": {
+                "entradaTerminal": "2023-09-01T13:29",
+                "pesajeEntrada": "51280",
+                "salidaTerminal": "2023-09-01T16:08",
+                "pesajeSalida": "18860"
+            }
+        }
+    }
+}

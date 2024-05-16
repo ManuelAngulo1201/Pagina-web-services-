@@ -1,0 +1,28 @@
+{
+    "acceso": {
+        "usuario": "SUPERVISOR@6156",
+        "clave": "spdiquemintran",
+        "rien": "1"
+    },
+    "variables": {
+        "sistemaEnturnamiento": {
+            "terminalPortuariaNit": "8060126542",
+            "sistemaEnturnamientoId": "1430"
+        },
+        "tipoOperacionId": 2,
+        "empresaTransportadoraNit": "9011741350",
+        "vehiculoNumPlaca": "SKR747",
+        "conductorCedulaCiudadania": "77167537",
+        "fechaOfertaSolicitud": "2023-12-04T15:30",
+        "numManifiestoCarga": "85185967",
+        "turnoAsignado": {
+            "fecha": "2023-12-04T15:22",
+            "tiemposProceso": {
+                "entradaTerminal": "2023-12-04T15:22",
+                "pesajeEntrada": "51920",
+                "salidaTerminal": "2023-12-04T16:15",
+                "pesajeSalida": "18030"
+            }
+        }
+    }
+}

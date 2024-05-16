@@ -1,0 +1,13 @@
+{
+    "variables": {
+        "turnoAsignado": {
+            "fecha": "2023-08-14T12:32",
+            "tiemposProceso": {
+                "entradaTerminal": "2023-08-14T12:32",
+                "pesajeEntrada": "51820",
+                "salidaTerminal": "2023-08-14T18:43",
+                "pesajeSalida": "17660"
+            }
+        }
+    }
+}

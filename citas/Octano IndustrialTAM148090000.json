@@ -1,0 +1,28 @@
+{
+    "acceso": {
+        "usuario": "SUPERVISOR@6156",
+        "clave": "spdiquemintran",
+        "rien": "1"
+    },
+    "variables": {
+        "sistemaEnturnamiento": {
+            "terminalPortuariaNit": "8060126542",
+            "sistemaEnturnamientoId": "1430"
+        },
+        "tipoOperacionId": 2,
+        "empresaTransportadoraNit": "9000537586",
+        "vehiculoNumPlaca": "TAM148",
+        "conductorCedulaCiudadania": "9396202",
+        "fechaOfertaSolicitud": "2023-08-12T09:00",
+        "numManifiestoCarga": "81301167",
+        "turnoAsignado": {
+            "fecha": "2023-08-12T09:06",
+            "tiemposProceso": {
+                "entradaTerminal": "2023-08-12T09:06",
+                "pesajeEntrada": "52160",
+                "salidaTerminal": "2023-08-12T10:49",
+                "pesajeSalida": "18000"
+            }
+        }
+    }
+}

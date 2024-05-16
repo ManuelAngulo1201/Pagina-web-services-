@@ -1,0 +1,28 @@
+{
+    "acceso": {
+        "usuario": "SUPERVISOR@6156",
+        "clave": "spdiquemintran",
+        "rien": "1"
+    },
+    "variables": {
+        "sistemaEnturnamiento": {
+            "terminalPortuariaNit": "8060126542",
+            "sistemaEnturnamientoId": "1430"
+        },
+        "tipoOperacionId": 2,
+        "empresaTransportadoraNit": "9013625453",
+        "vehiculoNumPlaca": "WFH671",
+        "conductorCedulaCiudadania": "5820529",
+        "fechaOfertaSolicitud": "2023-10-28T10:30",
+        "numManifiestoCarga": "83730890",
+        "turnoAsignado": {
+            "fecha": "2023-10-28T10:48",
+            "tiemposProceso": {
+                "entradaTerminal": "2023-10-28T10:48",
+                "pesajeEntrada": "50890",
+                "salidaTerminal": "2023-10-28T11:50",
+                "pesajeSalida": "18060"
+            }
+        }
+    }
+}

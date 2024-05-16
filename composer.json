@@ -1,0 +1,18 @@
+{
+    "name": "usuario/spdique_prueba",
+    "description": "\\",
+    "autoload": {
+        "psr-4": {
+            "Usuario\\SpdiquePrueba\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "manuel"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "phpoffice/phpspreadsheet": "^1.0"
+    }
+}

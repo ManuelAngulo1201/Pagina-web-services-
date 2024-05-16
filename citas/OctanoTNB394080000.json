@@ -1,0 +1,28 @@
+{
+    "acceso": {
+        "usuario": "SUPERVISOR@6156",
+        "clave": "spdiquemintran",
+        "rien": "1"
+    },
+    "variables": {
+        "sistemaEnturnamiento": {
+            "terminalPortuariaNit": "8060126542",
+            "sistemaEnturnamientoId": "1430"
+        },
+        "tipoOperacionId": 2,
+        "empresaTransportadoraNit": "9010208341",
+        "vehiculoNumPlaca": "TNB394",
+        "conductorCedulaCiudadania": "8782571",
+        "fechaOfertaSolicitud": "2023-12-04T08:00",
+        "numManifiestoCarga": "85204362",
+        "turnoAsignado": {
+            "fecha": "2023-12-04T10:40",
+            "tiemposProceso": {
+                "entradaTerminal": "2023-12-04T10:40",
+                "pesajeEntrada": "50310",
+                "salidaTerminal": "2023-12-04T12:31",
+                "pesajeSalida": "18600"
+            }
+        }
+    }
+}

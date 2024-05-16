@@ -1,0 +1,28 @@
+{
+    "acceso": {
+        "usuario": "SUPERVISOR@6156",
+        "clave": "spdiquemintran",
+        "rien": "1"
+    },
+    "variables": {
+        "sistemaEnturnamiento": {
+            "terminalPortuariaNit": "8060126542",
+            "sistemaEnturnamientoId": "1430"
+        },
+        "tipoOperacionId": 2,
+        "empresaTransportadoraNit": "9001770528",
+        "vehiculoNumPlaca": "TGW787",
+        "conductorCedulaCiudadania": "8708073",
+        "fechaOfertaSolicitud": "2023-12-05T23:00",
+        "numManifiestoCarga": "501227721",
+        "turnoAsignado": {
+            "fecha": "2023-12-05T23:13",
+            "tiemposProceso": {
+                "entradaTerminal": "2023-12-05T23:13",
+                "pesajeEntrada": "51170",
+                "salidaTerminal": "2023-12-05T23:56",
+                "pesajeSalida": "17410"
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "acceso": {
+        "usuario": "SUPERVISOR@6156",
+        "clave": "spdiquemintran",
+        "rien": "1"
+    },
+    "variables": {
+        "sistemaEnturnamiento": {
+            "terminalPortuariaNit": "8060126542",
+            "sistemaEnturnamientoId": "1430"
+        },
+        "tipoOperacionId": 2,
+        "empresaTransportadoraNit": "9004787851",
+        "vehiculoNumPlaca": "SSZ769",
+        "conductorCedulaCiudadania": "91285896",
+        "fechaOfertaSolicitud": "2023-08-18T19:00",
+        "numManifiestoCarga": "81503435",
+        "turnoAsignado": {
+            "fecha": "2023-08-18T15:45",
+            "tiemposProceso": {
+                "entradaTerminal": "2023-08-18T15:45",
+                "pesajeEntrada": "49570",
+                "salidaTerminal": "2023-08-18T19:33",
+                "pesajeSalida": "17290"
+            }
+        }
+    }
+}

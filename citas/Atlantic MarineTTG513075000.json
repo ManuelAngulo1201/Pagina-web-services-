@@ -1,0 +1,28 @@
+{
+    "acceso": {
+        "usuario": "SUPERVISOR@6156",
+        "clave": "spdiquemintran",
+        "rien": "1"
+    },
+    "variables": {
+        "sistemaEnturnamiento": {
+            "terminalPortuariaNit": "8060126542",
+            "sistemaEnturnamientoId": "1430"
+        },
+        "tipoOperacionId": 2,
+        "empresaTransportadoraNit": "9013625453",
+        "vehiculoNumPlaca": "TTG513",
+        "conductorCedulaCiudadania": "1057595903",
+        "fechaOfertaSolicitud": "2023-12-05T07:50",
+        "numManifiestoCarga": "85132215",
+        "turnoAsignado": {
+            "fecha": "2023-12-05T08:11",
+            "tiemposProceso": {
+                "entradaTerminal": "2023-12-05T08:11",
+                "pesajeEntrada": "49230",
+                "salidaTerminal": "2023-12-05T11:46",
+                "pesajeSalida": "17070"
+            }
+        }
+    }
+}

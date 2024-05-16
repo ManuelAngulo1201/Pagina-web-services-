@@ -1,0 +1,28 @@
+{
+    "acceso": {
+        "usuario": "SUPERVISOR@6156",
+        "clave": "spdiquemintran",
+        "rien": "1"
+    },
+    "variables": {
+        "sistemaEnturnamiento": {
+            "terminalPortuariaNit": "8060126542",
+            "sistemaEnturnamientoId": "1430"
+        },
+        "tipoOperacionId": 2,
+        "empresaTransportadoraNit": "9001770528",
+        "vehiculoNumPlaca": "JRP147",
+        "conductorCedulaCiudadania": "3066767",
+        "fechaOfertaSolicitud": "2023-09-01T10:00",
+        "numManifiestoCarga": "81856647",
+        "turnoAsignado": {
+            "fecha": "2023-09-01T09:53",
+            "tiemposProceso": {
+                "entradaTerminal": "2023-09-01T09:53",
+                "pesajeEntrada": "50570",
+                "salidaTerminal": "2023-09-01T12:25",
+                "pesajeSalida": "18240"
+            }
+        }
+    }
+}

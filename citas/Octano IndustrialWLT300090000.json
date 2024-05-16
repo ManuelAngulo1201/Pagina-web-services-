@@ -1,0 +1,28 @@
+{
+    "acceso": {
+        "usuario": "SUPERVISOR@6156",
+        "clave": "spdiquemintran",
+        "rien": "1"
+    },
+    "variables": {
+        "sistemaEnturnamiento": {
+            "terminalPortuariaNit": "8060126542",
+            "sistemaEnturnamientoId": "1430"
+        },
+        "tipoOperacionId": 2,
+        "empresaTransportadoraNit": "9004548729",
+        "vehiculoNumPlaca": "WLT300",
+        "conductorCedulaCiudadania": "1118536104",
+        "fechaOfertaSolicitud": "2023-08-12T09:00",
+        "numManifiestoCarga": "81220053",
+        "turnoAsignado": {
+            "fecha": "2023-08-12T08:45",
+            "tiemposProceso": {
+                "entradaTerminal": "2023-08-12T08:45",
+                "pesajeEntrada": "51970",
+                "salidaTerminal": "2023-08-12T11:02",
+                "pesajeSalida": "18520"
+            }
+        }
+    }
+}

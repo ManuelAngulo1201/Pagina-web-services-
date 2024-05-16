@@ -1,0 +1,28 @@
+{
+    "acceso": {
+        "usuario": "SUPERVISOR@6156",
+        "clave": "spdiquemintran",
+        "rien": "1"
+    },
+    "variables": {
+        "sistemaEnturnamiento": {
+            "terminalPortuariaNit": "8060126542",
+            "sistemaEnturnamientoId": "1430"
+        },
+        "tipoOperacionId": 2,
+        "empresaTransportadoraNit": "8300963767",
+        "vehiculoNumPlaca": "SSY617",
+        "conductorCedulaCiudadania": "13570821",
+        "fechaOfertaSolicitud": "2023-12-04T08:00",
+        "numManifiestoCarga": "85103483",
+        "turnoAsignado": {
+            "fecha": "2023-12-04T09:55",
+            "tiemposProceso": {
+                "entradaTerminal": "2023-12-04T09:55",
+                "pesajeEntrada": "51390",
+                "salidaTerminal": "2023-12-04T15:07",
+                "pesajeSalida": "17340"
+            }
+        }
+    }
+}
