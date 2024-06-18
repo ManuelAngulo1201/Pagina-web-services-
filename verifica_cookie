@@ -1,0 +1,8 @@
+<?php 
+
+if (!isset($_COOKIE['user']) || $_COOKIE['user'] !== 'authenticated') {
+    header("Location: login.html");
+    exit();
+}
+
+?>
