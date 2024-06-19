@@ -288,7 +288,9 @@
         <li>
 
           <b><a href="PaginaPrueba.php"><span class="underline-on-hover">Asignación de citas</span></a></b>
-
+          <b><a href="PaginaCierre.html"><span class="underline-on-hover">Cierre de citas</span></a></b>
+          <b><a href="PaginaCancelacion.html"><span class="underline-on-hover">Cancelación de citas</span></a></b>
+          <b><a><span class="underline-on-hover">Anulación de citas</span></a></b>
           <b><a href="logout.php"><span class="underline-on-hover">Cerrar sesión</span></a></b>
 
         </li>
