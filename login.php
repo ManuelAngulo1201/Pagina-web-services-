@@ -10,7 +10,8 @@ $password = $_POST["password"];
 
 if(isset($usuarios[$username])&& $usuarios[$username] === $password){
     setcookie('user', 'authenticated', time() + 600, "/");
-    header("Location: paginaPrueba.html");  
+    setcookie('username', $username, time() + 600, "/");
+    header("Location: paginaPrueba.php");  
     exit();
 } else {
     echo "incorrecto";

@@ -86,7 +86,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
          // Obtiene la respuesta del servicio web
         $responseData = $response->getBody()->getContents();
-        header("Location:paginaPrueba.html?success=" . urlencode($responseData));
+        header("Location:paginaPrueba.php?success=" . urlencode($responseData));
 
         
         $backupName = 'citas/'.$cliente.$placa.$fechaClave.'.json';
@@ -98,12 +98,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
     // Maneja la respuesta del servicio web
-    } catch (RequestException $e) {  
-       
-            $errorMsg = $e->getMessage();
-            header("Location:paginaPrueba.html?error=" . urlencode($errorMsg));
-            exit;    
+    } catch (RequestException $e) {
+        if ($e->hasResponse()) {
+            $response = $e->getResponse();
+            $errorData = json_decode($response->getBody()->getContents(), true);
 
+            // Mostrar solo una parte específica del JSON de error
+            if (isset($errorData['ErrorText'])) {
+                header("Location: PaginaPrueba.php?error=" . rawurlencode($errorData['ErrorText']));
+            } else {
+                header("Location: PaginaPrueba.php?error=" . rawurlencode("Error desconocido"));
+            }
+        } else {
+            $errorMsg = $e->getMessage();
+            header("Location: PaginaPrueba.php?error=" . rawurlencode($errorMsg));
+        }
+
+        exit;
     }
 
 } else {

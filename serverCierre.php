@@ -82,11 +82,25 @@ $client = new Client();
 
     // Maneja la respuesta del servicio web
     }   catch (RequestException $e) {  
-       
-            $errorMsg = $e->getMessage();
-            header("Location:PaginaCierre.html?error=" . urlencode($errorMsg));
-            exit;    
-
+                    if ($e->hasResponse()) {
+                              $response = $e->getResponse();
+            
+                               $errorData = json_decode($response->getBody(), true);
+            
+                              // Mostrar solo una parte específica del JSON de error
+                              if (isset($errorData['ErrorText'])) {
+                                    header("Location:PaginaPrueba.php?error=" . rawurlencode($errorData['ErrorText']));
+                              } else {
+                                    header("Location:PaginaPrueba.php?error=" . rawurlencode("Error desconocido"));
+                              }
+            
+                        } else {
+                              $errorMsg = $e->getMessage();
+                              header("Location:PaginaPrueba.php?error=" . rawurlencode($errorMsg));
+                        }
+            
+                        exit;  
+            
     }
 
 

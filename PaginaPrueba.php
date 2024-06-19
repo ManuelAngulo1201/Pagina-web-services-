@@ -192,6 +192,16 @@
         e.preventDefault();
       });
 
+      // NEGAR LA EDICION DEL NOMBRE DE USUARIO
+      const userName = document.getElementById('cliente');
+      userName.addEventListener('keypress', (e) => {
+        e.preventDefault();
+      });
+
+      userName.addEventListener('keydown', (e) => {
+        e.preventDefault();
+      });
+
     });
   </script>
 
@@ -220,42 +230,16 @@
 
   </script>
 
-  <script>
-    window.addEventListener('DOMContentLoaded', function () {
-      var urlParams = new URLSearchParams(window.location.search);
-      var errorMsg = urlParams.get('error');
-      // Imprimo mensaje de error en la consola para verificar
-      console.error('Mensaje de error completo:', errorMsg);
-      // Extraer el código de error ("ErrorCode") de la cadena de error
-      var errorCode = null;
-      // Expresion regular para captar solo el Error Code
-      var errorCodeMatch = errorMsg.match(/ErrorText:\s*'.*INSIDE(\d+).*'/);
-      if (errorCodeMatch) {
-        errorCode = parseInt(errorCodeMatch[1]); // Convertir el código de error a un número entero
-      }
-
-      // Diccionario de códigos de error y mensajes personalizados
-      var errorMessages = {
-        70: 'El conductorCedulaCiudadania no coincide con el manifiesto.',
-        68: 'El vehiculoNumPlaca no coincide con la placa del manifiesto',
-        49: 'Error de recurso no encontrado: el recurso solicitado no fue encontrado.',
-      };
-
-      // Obtener el mensaje de error personalizado correspondiente al código de error
-      var customErrorMessage = errorMessages[errorCode];
-
-      // Si se encuentra un mensaje personalizado para el código de error, mostrarlo
-      if (customErrorMessage) {
-        console.log('Mensaje de error personalizado:', customErrorMessage);
-      } else {
-        console.log('No se encontró un mensaje personalizado para el código de error:', errorCode);
-      }
-      alert(customErrorMessage); // Muestra el mensaje de error en una alerta
-      // Recarga la página después de mostrar el mensaje de error
-      window.location.href = 'PaginaPrueba.html';
-    }
-    );
-  </script>
+<script>
+        window.onload = function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.has('error')) {
+                const errorMessage = urlParams.get('error');
+                alert("Error: " + decodeURIComponent(errorMessage));
+                window.location.href = 'PaginaPrueba.php';
+            }
+        };
+</script>
 
   <script>
     window.addEventListener('DOMContentLoaded', function () {
@@ -266,7 +250,7 @@
         alert('Cita creada exitosamente'); // Muestra el mensaje de error en una alerta
 
         // Recarga la página después de mostrar el mensaje de error
-        window.location.href = 'PaginaPrueba.html';
+        window.location.href = 'PaginaPrueba.php';
       }
     });
   </script>
@@ -303,7 +287,7 @@
       <ul>
         <li>
 
-          <b><a href="PaginaPrueba.html"><span class="underline-on-hover">Asignación de citas</span></a></b>
+          <b><a href="PaginaPrueba.php"><span class="underline-on-hover">Asignación de citas</span></a></b>
           <b><a href="PaginaCierre.html"><span class="underline-on-hover">Cierre de citas</span></a></b>
           <b><a href="PaginaCancelacion.html"><span class="underline-on-hover">Cancelación de citas</span></a></b>
           <b><a><span class="underline-on-hover">Anulación de citas</span></a></b>
